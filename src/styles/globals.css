@@ -9,11 +9,8 @@
 }
 
 .active-day {
-  @apply border-b-2 border-vektrus-blue;
-}
-
-.hover-transition {
-  @apply transition-all duration-200 ease-in-out;
+  border-bottom-width: 2px;
+  border-color: #00B8D9; /* Direkt die Farbe verwenden */
 }
 
 @keyframes fade-in {
