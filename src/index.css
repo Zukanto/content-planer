@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --vektrus-blue: #00B8D9;
+  --vektrus-blue-light: #E6FBFF;
+  --vektrus-blue-dark: #0095B0;
+  --vektrus-gray-light: #F5F5F5;
+  --vektrus-gray-dark: #333333;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--vektrus-gray-light);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.hover-transition {
+  @apply transition-all duration-200 ease-in-out;
+}
